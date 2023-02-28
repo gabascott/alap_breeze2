@@ -25,10 +25,10 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        Ingatlanok::create(['kategoria' => 1, 'leiras' => 'Vmi leírás 1', 'hirdetesDatuma' => '2022-12-24', 'tehermentes' => 1, 'ar' => '1000000', 'kepUrl' => "src/valami"]);
-        Ingatlanok::create(['kategoria' => 3, 'leiras' => 'Vmi leírás 2', 'hirdetesDatuma' => '2022-10-03', 'ar' => '1000000', 'kepUrl' => "src/valami"]);
-        Ingatlanok::create(['kategoria' => 2, 'leiras' => 'Vmi leírás 3', 'hirdetesDatuma' => '2023-01-17', 'tehermentes' => 1, 'ar' => '1000000', 'kepUrl' => "src/valami"]);
-        Ingatlanok::create(['kategoria' => 5, 'leiras' => 'Vmi leírás 4', 'hirdetesDatuma' => '2023-02-01', 'ar' => '1000000', 'kepUrl' => "src/valami"]);
+        Ingatlanok::create(['kategoria' => 1, 'leiras' => 'Vmi leírás 1', 'hirdetesDatuma' => '2022-12-24', 'tehermentes' => 1, 'ar' => '1000000', 'kepUrl' => "kepek/Modern.jpg"]);
+        Ingatlanok::create(['kategoria' => 3, 'leiras' => 'Vmi leírás 2', 'hirdetesDatuma' => '2022-10-03', 'ar' => '1000000', 'kepUrl' => "kepek/Israel.jpg"]);
+        Ingatlanok::create(['kategoria' => 2, 'leiras' => 'Vmi leírás 3', 'hirdetesDatuma' => '2023-01-17', 'tehermentes' => 1, 'ar' => '1000000', 'kepUrl' => "kepek/Martha.jpg"]);
+        Ingatlanok::create(['kategoria' => 5, 'leiras' => 'Vmi leírás 4', 'hirdetesDatuma' => '2023-02-01', 'ar' => '1000000', 'kepUrl' => "kepek/Sbid.jpg"]);
     }
 
     /**

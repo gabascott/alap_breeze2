@@ -10,6 +10,7 @@
 
     <!--Script-->
     <script type="module" src="{{ url('script/main.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <main>
@@ -17,12 +18,11 @@
             <h1>Ajánlataink</h1>
         </header>
         <nav>
-            itt lesz a nav
+            <li><a href="{{url('/')}}">Kezdőlap</a></li>
+            <li><a href="{{url('/uj_ingatlan')}}">Új ingatlan</a></li>
         </nav>
-        <article>
-            <div class="ingatlan">
-
-            </div>
+        <article class="ingatlan_container">
+            
         </article>
         <footer>Készítette:Somoskői Gábor</footer>
     </main>
